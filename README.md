@@ -19,8 +19,11 @@ $ composer install
 
 Buat app key, kemudian konfigurasi pada file '.env' dan kemudian lakukan migrasi.
 ```shell
-# membuat file .env baru dari file .env.example
+# membuat file .env baru dari file .env.example - Linux
 $ cp .env.example .env
+
+# membuat file .env baru dari file .env.example - Windows
+$ copy .env.example .env
 
 # membuat app key
 $ php artisan key:generate
